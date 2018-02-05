@@ -4,7 +4,7 @@ int main()
 int a;
 printf("Enter value of a");
 scanf("%d",&a);
-if((a/a)&&(a/1))
+if((a%a)&&(a%1))
 {
 printf("It is a prime number");
 }
